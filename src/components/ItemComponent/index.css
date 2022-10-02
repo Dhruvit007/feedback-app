@@ -1,0 +1,17 @@
+.imoji {
+  height: 80px;
+  margin-bottom: 0px;
+}
+@media screen and (max-width: 767px) {
+  .imoji {
+    height: 40px;
+  }
+}
+.paragraph {
+  margin-top: 10px;
+  font-family: 'Roboto';
+  font-weight: bold;
+}
+.list-item {
+  list-style-type: none;
+}

@@ -1,0 +1,20 @@
+.container {
+  background-image: linear-gradient(to right, #ffeeee, #ffebeb, #ffc0bb);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.content-container {
+  width: 80%;
+  max-width: 700px;
+  background-color: #ffffff;
+  text-align: center;
+  padding: 40px;
+  border-radius: 10px;
+}
+@media screen and (max-width: 767px) {
+  .content-container {
+    padding: 20px;
+  }
+}

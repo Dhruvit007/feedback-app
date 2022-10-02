@@ -1,0 +1,22 @@
+.love-image {
+  width: 50px;
+}
+.love-heading {
+  font-family: 'Roboto';
+}
+@media screen and (max-width: 767px) {
+  .love-heading {
+    font-size: 20px;
+  }
+}
+
+.love-paragraph {
+  font-family: 'Roboto';
+  font-weight: 400;
+  color: #1e293b;
+}
+@media screen and (max-width: 767px) {
+  .love-paragraph {
+    font-size: 13px;
+  }
+}
